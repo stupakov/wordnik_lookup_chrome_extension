@@ -1,0 +1,17 @@
+{
+  "name": "Wordnik Lookup",
+  "version": "1.0",
+  "description": "Look up words in the Wordnik.com dictionary from the Google Chrome Omnibox",
+
+  "omnibox": { "keyword" : "def" },
+  "icons": {
+    "16": "wordnik.png"
+  },
+  "background_page": "background.html",
+
+  "permissions": [
+    "http://api.wordnik.com/",
+    "http://code.jquery.com/",
+    "tabs"
+  ]
+}
